@@ -7,6 +7,6 @@ steps:
   - function_cicd
   - --region= asia-south1
   - --source=.
-  - --trigger=http
+  - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
