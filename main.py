@@ -20,4 +20,4 @@ def function_cicd(request):
         name = request_args['name']
     else:
         name = 'World'
-    return 'Hello v2.0 {}! from CICD Pipe'.format(name)
+    return 'Hello v3.0 {}! from CICD Pipe'.format(name)
